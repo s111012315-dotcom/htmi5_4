@@ -172,7 +172,7 @@
         <button class="btn-retry" onclick="initGame()">重新生成</button>
     </div>
 
-    <script src="words02.js"></script>
+    <script src="words.js"></script>
 
     <script>
         const BOARD_SIZE = 20; // 拼音比較長，網格加大到 20x20
@@ -184,7 +184,7 @@
         const downListEl = document.getElementById('down-list');
 
         if (typeof wordData === 'undefined') {
-            alert("找不到 words02.js，請確認檔案存在。");
+            alert("找不到 words.js，請確認檔案存在。");
         }
 
         function initGame() {
@@ -418,4 +418,5 @@
         initGame();
     </script>
 </body>
+
 </html>
